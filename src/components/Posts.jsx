@@ -1,8 +1,8 @@
-import { DummyPosts } from "../data/data.js";
-import { useState } from "react";
-import PostItem from "./PostItem";
+import { DummyPosts } from "../data/data.js"
+import { useState } from "react"
+import PostItem from "./PostItem"
 export default function Posts() {
-  const [posts,setPosts] = useState(DummyPosts);
+  const [posts,setPosts] = useState(DummyPosts)
     return (
     <section className="posts">
         {

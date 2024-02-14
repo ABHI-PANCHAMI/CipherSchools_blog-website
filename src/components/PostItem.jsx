@@ -5,7 +5,7 @@ export default function PostItem({Image, authorId, category, title, des, postId}
   return (
     <article className="post">
         <div className="post-image">
-            <img src="{Image}" alt="" />
+            <img src={Image} alt="" />
 
             </div>
             <div className="post-content">
