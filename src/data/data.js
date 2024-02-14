@@ -18,7 +18,7 @@ export const DummyPosts=[{
 
 {
     id:2,
-    Image: blogImage1,
+    Image: blogImage2,
     category: 'Art',
     authorId: 4,
     title: 'Lorem Ipsum Dolor Sit Amet',
@@ -26,7 +26,7 @@ export const DummyPosts=[{
 },
 {
     id:3,
-    Image: blogImage1,
+    Image: blogImage3,
     category: 'Education',
     authorId: 5,
     title: 'Lorem Ipsum Dolor Sit Amet',

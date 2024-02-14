@@ -9,9 +9,9 @@ export default function Header() {
             <Link className="nav-logo" to={'/'}>
                 <h3>Blog W<span>ebsit</span>e</h3></Link>
             <ul className="nav-menu">
-                <li><Link to={'/profile'}>profile</Link></li>
-                <li><Link to={'/create'}>create post</Link></li>
-                <li><Link to={'/authors'}>author</Link></li>
+                <li><Link to={'/profile'}>Profile</Link></li>
+                <li><Link to={'/create'}>Create Post</Link></li>
+                <li><Link to={'/authors'}>Author</Link></li>
                 <li><Link to={'/logout'}>Logout</Link></li>
                 </ul>
             <button className="nav-toggle-button btn  btn-danger">
